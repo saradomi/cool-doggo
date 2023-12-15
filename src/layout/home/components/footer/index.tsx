@@ -8,8 +8,8 @@ export function Footer () {
     <>
       <Styles.Container>
         <Container size="lg">
-          <Image 
-            src="/logo.svg"
+          <Image
+            src="/cool-doggo_square-paper-03.png"
             alt="logo"
             width={100}
             height={100}
@@ -17,11 +17,11 @@ export function Footer () {
           />
         </Container>
         <Container size="lg">
-          <Box 
+          <Box
             flexDirection={{
               '@initial': 'column',
               '@table-min': 'row'
-            }} 
+            }}
             justifyContent="space-between" 
             gap={2}
           >
@@ -30,9 +30,6 @@ export function Footer () {
               <Styles.List>
                 <li>
                   <Link href="">Clothing</Link>
-                </li>
-                <li>
-                  <Link href="">Accessories</Link>
                 </li>
                 <li>
                   <Link href="">Women</Link>
@@ -45,9 +42,6 @@ export function Footer () {
                 </li>
                 <li>
                   <Link href="">New Arrivals</Link>
-                </li>
-                <li>
-                  <Link href="">New Clearance</Link>
                 </li>
               </Styles.List>
             </Box>
@@ -79,16 +73,16 @@ export function Footer () {
               <Styles.List>
                 <li>
                   <Link href="">
-                    <span>Florenza</span><br />
+                    <span>Cool Doggo</span><br />
                     <span>P.O. Box 147 2546 Sociosqu Rd.</span><br />
                     <span>Bethlehem Utah 02913</span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="">support@example.com</Link>
+                  <Link href="">guidasmoranes@gmail.com</Link>
                 </li>
                 <li>
-                  <Link href="">(939) 353-1107, (302) 259-2375</Link>
+                  <Link href="">(00351) 233 155 107</Link>
                 </li>
               </Styles.List>
             </Box>
@@ -96,21 +90,10 @@ export function Footer () {
               <Typography fontWeight="500" size="md" color="heading">follow us</Typography>
               <Styles.List>
                 <li>
-                  <Link href="">
-                  Facebook
-                  </Link>
+                  <Link href="https://www.instagram.com/guidasmoranes/">Instagram</Link>
                 </li>
                 <li>
-                  <Link href=""> Twitter</Link>
-                </li>
-                <li>
-                  <Link href="">Instagram</Link>
-                </li>
-                <li>
-                  <Link href="">Pinterest</Link>
-                </li>
-                <li>
-                  <Link href="">Youtube</Link>
+                  <Link href="https://www.behance.net/GuidaSMoranes">Behance</Link>
                 </li>
               </Styles.List>
             </Box>
@@ -120,7 +103,7 @@ export function Footer () {
       <Container size="lg">
         <Box marginTop={3} marginBottom={3}>
           <Typography size="xsm">
-            © Floreza {new Date().getFullYear()}. Powered with 🧡  by <a target="_blank" rel="noreferrer" href="https://github.com/censuradho">Censuradho</a>.</Typography>
+            <b>Cool Doggo</b> {new Date().getFullYear()}. Powered with 🧡  by <b>Guida S. Moranes</b>.</Typography>
         </Box>
       </Container>
     </>

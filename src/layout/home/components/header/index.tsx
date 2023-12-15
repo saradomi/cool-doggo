@@ -24,7 +24,7 @@ export function Header () {
         />
       </Box>
       <Link href="/">
-        <Image src="/logo.svg" alt="logo" width={70} height={70} style={{ objectFit: 'contain' }} />
+        <Image src="/cool-doggo_square-paper-03.png" alt="logo" width={70} height={70} style={{ objectFit: 'contain' }} />
       </Link>
 
       <Box alignItems="center" gap={0.5}>
@@ -37,7 +37,7 @@ export function Header () {
       <Styles.Navigation active={isOpen}>
         <Styles.NavHeader>
           <Box flex={1} justifyContent="center" alignItems="center">
-            <Image src="/logo.svg" alt="logo" width={70} height={70} style={{ objectFit: 'contain' }} />
+            <Image src="/cool-doggo_square-paper-03.png" alt="logo" width={70} height={70} style={{ objectFit: 'contain' }} />
           </Box>
           <ButtonIcon
             onClick={() => setIsOpen(false)}

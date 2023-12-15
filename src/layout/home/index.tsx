@@ -45,8 +45,8 @@ export function HomeLayout (props: HomePageProps) {
         <AboveFold data={above_fold} />
         <div>
           <ButtonScrollTop />
-          <Category data={collection_banner} />
           <Arrivals data={arrivals} />
+          <Category data={collection_banner} />
           <SeasonSale data={season_sale} />
           <Collections data={collections} />
         </div>

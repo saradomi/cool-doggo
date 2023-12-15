@@ -162,7 +162,7 @@
         "value": 0,
         "end_date": ""
       },
-      "description": "Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.",
+      "description": "A 100% cotton hoodie to wear in the cool days.",
       "brand": "clothes",
       "rate": 4,
       "name": "Round neck sweater",
@@ -616,7 +616,7 @@
   "home": {
     "above_fold": [
       {
-        "title": "Favorite clothing",
+        "title": "Be Cool Doggo",
         "sub_title": "30% OFF",
         "image": "http://zwin.io/react/stoon/assets/img/banner/11.png",
         "action": {
@@ -625,7 +625,7 @@
         }
       },
       {
-        "title": "Favorite clothing",
+        "title": "Get your Cool Doggo look!",
         "sub_title": "30% OFF",
         "image": "http://zwin.io/react/stoon/assets/img/banner/1.png",
         "action": {
@@ -665,7 +665,7 @@
     ],
     "arrivals": [1, 3, 4, 2, 6, 8, 10],
     "season_sale": {
-      "title": "spring sale",
+      "title": "Winter sale",
       "description": "30% off on selected items",
       "image": "http://zwin.io/react/stoon/assets/img/others/sales.png",
       "action": {

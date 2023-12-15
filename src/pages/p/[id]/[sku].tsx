@@ -21,7 +21,7 @@ export default function ProductPage (props: InferGetServerSidePropsType<typeof g
   return (
     <>
       <Head 
-        title={`${data.name} | Floreza`}
+        title={`${data.name} | Cool Doggo`}
         description={data.description}
       />
       <ProductLayout {...props} />
