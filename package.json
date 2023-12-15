@@ -2,7 +2,7 @@
   "name": "web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/saradomi/cool-doggo.git",
+  "homepage": "https://saradomi.github.io/cool-doggo",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
