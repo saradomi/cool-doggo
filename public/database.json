@@ -618,7 +618,7 @@
       {
         "title": "Be Cool Doggo",
         "sub_title": "30% OFF",
-        "image": "http://zwin.io/react/stoon/assets/img/banner/11.png",
+        "image": "/doggo-skae.png",
         "action": {
           "label": "get collection",
           "path": ""
@@ -627,7 +627,7 @@
       {
         "title": "Get your Cool Doggo look!",
         "sub_title": "30% OFF",
-        "image": "http://zwin.io/react/stoon/assets/img/banner/1.png",
+        "image": "/2206_DoggieDropout_Opener_GettyImages-1174649981.jpg",
         "action": {
           "label": "get collection",
           "path": ""
