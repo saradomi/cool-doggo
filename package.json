@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://saradomi.github.io/cool-doggo",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "next build",
     "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
