@@ -1,5 +1,5 @@
 {
-  "short_name": "Cool doggo",
+  "short_name": "Cool Doggo",
   "name": "Cooool doggo",
   "icons": [
     {
@@ -9,6 +9,11 @@
     },
     {
       "src": "apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "cool-doggo_square-paper-03.png",
       "type": "image/png",
       "sizes": "192x192"
     }
