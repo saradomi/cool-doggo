@@ -1,27 +1,23 @@
-name: Deployment
-on:
-  push:
-    branches:
-      - staging
+name: Docker
+
+on: workflow_dispatch
+
 jobs:
-  testing:
+  docker-job:
     runs-on: ubuntu-latest
+    container: 
+      image: node:20-alpine
+      #credentials:
+      #  username:
+      #  password:
+      env:
+        API_URL: url.com
+      ports:
+        - 80
     steps:
-      - name: Get Code
-        uses: actions/checkout@v3
-
-      - name: Cache dependencies
-        uses: actions/cache@v3
-        with:
-          path: ~/.npm
-          key: npm-deps-${{ hashFiles('**/package-lock.json') }}
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build project
-        run: npm run build
-
-      - name: Run tests
-        run: npm test --if-present
-  
+      - name: Log Node & OS Versions
+        run: |
+          node -v
+          cat /etc/os-release
+      - name: Log env 
+        run: echo $API_URL
