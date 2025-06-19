@@ -23,3 +23,7 @@ jobs:
           cat /etc/os-release
       - name: Log env 
         run: echo $API_URL
+      - name: Container in a step
+        uses: docker://node:20-alpine
+        with:
+          args: -v
